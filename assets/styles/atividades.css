@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 30%;
+    height: 180px;
+    background-color: rgb(19, 13, 78);
+    margin: 0 auto 20px;
+    margin-top: 60px;
+    align-items: center;
+}
