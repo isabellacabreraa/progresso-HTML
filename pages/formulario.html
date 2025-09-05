@@ -7,16 +7,27 @@
     <link rel="stylesheet" href="../assets/styles/formulario.css">
 </head>
 <body>
-    <form action="#"></form>
-    <div class="nomeNinja">
-        <label for="nome">Nome do Ninja 🥷🏼</label>
-        <input 
-        type="text" 
-        name="nome"
-        placeholder="Digite o nome do ninja..."
-        required
-        />
-    </div>
+    <form action="#">
+        <div class="nomeNinja">
+            <label for="nome">Nome do Ninja 🥷🏼</label>
+            <input 
+            type="text" 
+            name="nome"
+            placeholder="Digite o nome do ninja..."
+            required
+            />
+        </div>
 
+        <div class="rank">
+            <label for="rank">Escolha o rank do Ninja</label>
+            <select name="rank" id="rank">
+                <option value="">Selecione...</option>
+                <option value="genin">Genin</option>
+                <option value="chunin">Chunin</option>
+                <option value="jonin">Jonin</option>
+                <option value="kage">Kage</option>
+            </select>
+        </div>
+    </form>
 </body>
 </html>
